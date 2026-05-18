@@ -8,17 +8,22 @@ Full Platform Integration Sprint — AI platform demo từ data ingestion đến
 lab28_submission_2A202600023/
 ├── README.md                       # File này
 ├── ANSWERS.md                      # Trả lời 5 câu hỏi
-├── smoke_tests_results.txt         # Kết quả pytest (8/8 passed)
-├── production_readiness.txt        # Production readiness 10/10 (100%)
+├── smoke_tests_results.png         # Screenshot pytest 8/8 passed
+├── production_readiness.png        # Screenshot readiness 10/10
+├── smoke_tests_results.txt         # Raw output pytest
+├── production_readiness.txt        # Raw output readiness check
+├── lab28/                          # Source code hoàn chỉnh
+│   ├── docker-compose.yml
+│   ├── prefect/flows/
+│   ├── scripts/
+│   ├── api-gateway/
+│   ├── monitoring/
+│   └── smoke-tests/
 └── screenshots/
     ├── prefect_ui.png
     ├── api_gateway.png
-    ├── grafana_dashboard.png
-    ├── smoke_tests_results.png
-    └── production_readiness.png
+    └── grafana_dashboard.png
 ```
-
-Source code lab nằm ở thư mục cha (cùng repo): `docker-compose.yml`, `prefect/flows/`, `scripts/`, `api-gateway/`, `monitoring/`, `smoke-tests/`.
 
 ## Kết quả
 
